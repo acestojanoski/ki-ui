@@ -305,7 +305,7 @@ ul.nav-sub {
 .menu-wrap {
     position: fixed;
     z-index: 1001;
-    width: 185px !important;
+    width: 300px !important;
     height: 100% !important; 
     background: #940494; 
     -webkit-transform: translate3d(-320px,0,0);
@@ -321,6 +321,13 @@ ul.nav-sub {
     transition-timing-function: cubic-bezier(0.7,0,0.3,1); 
 	overflow-y:auto !important;
 }
+
+@media only screen and (max-width: 600px) {
+    .menu-wrap {
+        width: 94% !important;
+    }
+}
+
 .icon-list {
 	height: 400px !important;
 	-webkit-transform: translate3d(0,100%,0);
@@ -439,9 +446,6 @@ ul.nav-sub {
 .banner-img1{
 	background-image: url(../images/2.jpg);
 }
-.banner-img2{
-	background-image: url(../images/3.jpg);
-}
 .banner .carousel-control span.glyphicon {
     font-size: 1.5em;
     text-shadow: none;
@@ -449,7 +453,8 @@ ul.nav-sub {
 /*-- //banner--*/
 /*-- welcome --*/
 .welcome{
-	padding: 3.5em 5em 0; 
+    padding: 3.5em 5em 0; 
+    margin-bottom: 4%;
 }
 .welcome-grids {
     float: left;
