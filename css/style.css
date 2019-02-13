@@ -88,7 +88,7 @@ body a:hover{
     width: 24%;
 }
 .header {
-    background: #8b008b;
+    background: #1C73AD;
     padding: 1.2em 3em;
 }
 .menu-icon,.logo,.login{
@@ -133,7 +133,7 @@ body a:hover{
     color: #fff;
     border-bottom: 1px solid #FFF;
     text-transform: none;
-    background: #6b046b;
+    background: #1C73AD;
     font-family: 'Abel', sans-serif;
 	-webkit-transform: translate3d(0,500px,0);
     -moz-transform: translate3d(0,500px,0);
@@ -163,7 +163,7 @@ ul.nav-sub li a {
     padding-left: 3.5em;
 }
 .top-nav li a:hover,.top-nav li a.active { 
-    background: #780278;
+    background: #165c8a;
 }
 .top-nav i.glyphicon {
     margin-right: 10px;
@@ -307,7 +307,7 @@ ul.nav-sub {
     z-index: 1001;
     width: 300px !important;
     height: 100% !important; 
-    background: #940494; 
+    background: #1C73AD; 
     -webkit-transform: translate3d(-320px,0,0);
 	-moz-transform: translate3d(-320px,0,0);
 	-o-transform: translate3d(-320px,0,0);
@@ -1093,15 +1093,15 @@ button.mfp-arrow {
  
 .booking-info h3 {
     font-size: 2.1em;
-    color: #8b008b;
+    color: #165c8a;
     text-align: center;
 }
 .booking-info h3 a{ 
-    color: #8b008b; 
+    color: #165c8a; 
 	text-decoration:none;
 }
 .booking-info h3 a:hover{ 
-    color: #1e9c95; 
+    color: #8b008b; 
 }
 .login-form input[type="text"], .login-form input[type="password"] {
     font-size: 1em;
@@ -1197,7 +1197,7 @@ button.mfp-arrow {
 .wthree-text input[type="checkbox"]+label span:first-child {
     width: 16px;
     height: 16px;
-    border: 2px solid #8b008b;
+    border: 2px solid #165c8a;
     position: absolute;
     left: 0;
     top: 1px;
